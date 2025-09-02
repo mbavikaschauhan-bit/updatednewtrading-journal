@@ -174,7 +174,7 @@
     <div id="toast-container"></div>
 
     <!-- Main App Wrapper -->
-    <div id="app-container" class="hidden relative min-h-screen md:flex">
+    <div id="app-container" class="hidden relative h-screen md:flex">
         <!-- Sidebar -->
         <aside id="sidebar" class="w-64 flex-shrink-0 bg-white dark:bg-slate-800 border-r border-slate-200 dark:border-slate-700 flex-col fixed inset-y-0 left-0 z-40 transform -translate-x-full md:relative md:translate-x-0 transition-transform duration-200 ease-in-out flex">
             <div class="h-16 flex items-center justify-center px-4 border-b border-slate-200 dark:border-slate-800">
@@ -210,7 +210,7 @@
         </aside>
 
         <!-- Main Content -->
-        <div class="flex flex-col flex-1 w-full">
+        <div class="flex flex-col flex-1 w-full overflow-hidden">
             <header class="sticky top-0 bg-white/70 dark:bg-slate-900/70 backdrop-blur-lg z-30 h-16 flex items-center justify-between px-4 md:px-8 border-b border-slate-200 dark:border-slate-800">
                 <div class="flex items-center space-x-4">
                     <button id="menu-toggle-btn" class="md:hidden p-2 rounded-full hover:bg-slate-200 dark:hover:bg-slate-700">
